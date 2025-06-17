@@ -11,7 +11,7 @@ Time spent: **7.5** hours spent in total
 The following **required** functionality is completed:
 
 
-- [ ] **The app displays the title of the card set, a short description, and the total number of cards**
+- [x] **The app displays the title of the card set, a short description, and the total number of cards**
   - [x] Title of card set is displayed 
   - [x] A short description of the card set is displayed 
   - [x] A list of card pairs is created
@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 - [x] Cards contain images in addition to or in place of text
   - [x] Some or all cards have images in place of or in addition to text
-- [ x] Cards have different visual styles such as color based on their category
+- [x] Cards have different visual styles such as color based on their category
   - A ring of green, yellow or red around the card depending on the difficulty which correspponds to general perceptions on the recognizability of the flags. 
 
 The following **additional** features are implemented:
@@ -41,14 +41,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
+
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+MacOS Screen Recording Tool
 
 ## Notes
 
