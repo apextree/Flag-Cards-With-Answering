@@ -1,5 +1,5 @@
 import './App.css';
-import Card from './Card';
+import Card from './Card.jsx';
 import flashCardsInformation from './flashCardsInformation.js';
 const App = () => {
 
