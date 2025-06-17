@@ -1,13 +1,16 @@
 import './App.css';
-import { useState  } from 'react';
-
+import Card from './Card';
+import flashCardsInformation from './flashCardsInformation.js';
 const App = () => {
 
   return (
     <div className="App">
-    <h1>Do you know the world?</h1>
-    <p>Test your geography knowledge with this card deck!</p>
-    <h3>Total Cards: </h3>
+      <div className="title-container" style={{textAlign: 'left'}}>
+        <h1>Do you know the World flags?</h1>
+        <h3>Try out your geography knowledge with this card deck that tests your flag recognition skills!</h3>
+        <h3>Total Cards: {flashCardsInformation.length}</h3>
+      </div>
+    <br />
     <Card />
    
     </div>
