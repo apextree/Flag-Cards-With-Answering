@@ -4,7 +4,7 @@ Submitted by: **Anubhav Dhungana**
 
 This web app: ** Flag Cards is an interactive flash card app that helps you learn to identify country flags. Test your knowledge with 15 European countries across three difficulty levels. Simply click on a card to flip it and reveal the country name. Use the navigation buttons to move between cards. Perfect for geography enthusiasts and students looking to improve their flag recognition skills! **
 
-Time spent: **7** hours spent in total
+Time spent: **7.5** hours spent in total
 
 ## Required Features
 
