@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './Card.jsx';
+
 import flashCardsInformation from './flashCardsInformation.js';
 const App = () => {
 
@@ -12,10 +13,9 @@ const App = () => {
       </div>
     <br />
     <Card />
-   
+
     </div>
   )
 }
 
-export default App
-
+export default App 

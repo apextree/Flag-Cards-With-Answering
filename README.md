@@ -1,57 +1,55 @@
-# Web Development Project 2 - *Flag Cards*
+# Web Development Project 3 - *Flag Cards v2*
 
 Submitted by: **Anubhav Dhungana**
 
-This web app: ** Flag Cards is an interactive flash card app that helps you learn to identify country flags. Test your knowledge with 15 European countries across three difficulty levels. Simply click on a card to flip it and reveal the country name. Use the navigation buttons to move between cards. Perfect for geography enthusiasts and students looking to improve their flag recognition skills! **
+This web app is **A flashcard app that tests users' knowledge of world flags through an interactive card deck with input validation**
 
-Time spent: **7.5** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-
-- [x] **The app displays the title of the card set, a short description, and the total number of cards**
-  - [x] Title of card set is displayed 
-  - [x] A short description of the card set is displayed 
-  - [x] A list of card pairs is created
-  - [x] The total number of cards in the set is displayed 
-  - [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
-- [x] **A single card at a time is displayed**
-  - [x] Only one half of the information pair is displayed at a time
-- [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-  - [x] Clicking on a card flips it over, showing the back with corresponding information 
-  - [x] Clicking on a flipped card again flips it back, showing the front
-- [x] **Clicking on the next button displays a random new card**
+- [x] **The user can enter their guess into an input box *before* seeing the flipside of the card**
+  - Application features a clearly labeled input box with a submit button where users can type in a guess
+  - Clicking on the submit button with an **incorrect** answer shows visual feedback that it is wrong 
+  -  Clicking on the submit button with a **correct** answer shows visual feedback that it is correct
+- [x] **The user can navigate through an ordered list of cardss**
+  - A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  - A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
+  - Both the next and back buttons should have some visual indication that the user is at the beginning or end of the list (for example, graying out and no longer being available to click), not allowing for wrap-around navigation
 
 The following **optional** features are implemented:
+- [x] Users can use a shuffle button to randomize the order of the cards
+  - Cards should remain in the same sequence (**NOT** randomized) unless the shuffle button is clicked 
+  - Cards should change to a random sequence once the shuffle button is clicked
+- [x] A user’s answer may be counted as correct even when it is slightly different from the target answer
+  - Answers are considered correct even if they only partially match the answer on the card 
+  - Examples: ignoring uppercase/lowercase discrepancies, ignoring punctuation discrepancies, matching only for a particular part of the answer rather than the whole answer
+- [x] A counter displays the user’s current streak
+  - The current counter increments when a user guesses an answer correctly
+  - The current counter resets to 0 when a user guesses an answer incorrectly
 
-- [x] Cards contain images in addition to or in place of text
-  - [x] Some or all cards have images in place of or in addition to text
-- [x] Cards have different visual styles such as color based on their category
-  - A ring of green, yellow or red around the card depending on the difficulty which correspponds to general perceptions on the recognizability of the flags. 
-
-The following **additional** features are implemented:
-
-* [x] Every shown card is saved in a stack and can be viewed by going backwards stopping when user runs out of previous cards.
-* [x] The flag is also shown in the background, with opacity turned down, when filling to the answer side. This makes it aesthetically pleasing and easier to keep track of info. 
 
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='./src/assets/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<img src='./src/assests/week3projectwalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
-MacOS Screen Recording Tool
+Mac Screen Record
+Giphy
 
 ## Notes
 
-* Using more React features was fun yet challenging
-* CSS was painful as always, especially trying to ensure aesthetic symmetry in cards, buttons, flag displays, etc. 
-* The logic surrounding card flipping(showing question and answer), and setting colors was tricky, and reuiqred multiple iterations to get right.
+The following are some of the challenges I faced while doing this work:
+- React is still tricky and complicated.
+- CSS is always a massive pain, with multiple iterations for the same thing. 
+- Learning the full extent of React useState.
+- Implementing the feature to clear the search field once proceeded to another card. 
+- Implementing the feature for the arrow keys to grey out if the card shown is the first/last card in the deck. 
 
 
 ## License

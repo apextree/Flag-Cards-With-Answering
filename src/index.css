@@ -175,3 +175,124 @@
   object-fit: cover;
 }
 
+.Answer-Container{
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin-top: 3.5%;
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  height: 100%; 
+}
+
+.Answer-form-container{
+  width: 80%;
+  height: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+
+
+.answer-form-input-text{
+  width: 60%;
+  background-color: transparent;
+  margin-right: 5%;
+  border-radius: 10px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.answer-form-input-text:focus{
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.025);
+}
+
+.answer-form-button{
+  height: 2.4rem;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 20%;
+}
+.answer-form-button:hover{
+  transform: scale(1.025);
+  color: #fff;
+  background-color: #00afff;
+  border: 2px solid #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+.Shuffle-Button-Container {
+  z-index: 2;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 10%;
+  padding: 1rem;
+  position: relative;
+  margin-top: -3rem;
+  margin-left: -2.5rem;
+}
+
+.shuffle-button {
+  width: auto;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.shuffle-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea);
+  border-color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Streaks-Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 10%;
+  padding: 1rem;
+  position: relative;
+  margin-top: -6.2rem;
+  left: 80%;
+}
+
+.Streaks-Text{
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 2px solid #000;
+  border-radius: 10px;
+
+}
