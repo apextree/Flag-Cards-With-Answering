@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented features:
 
 <img src='src/assets/week3projectwalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
